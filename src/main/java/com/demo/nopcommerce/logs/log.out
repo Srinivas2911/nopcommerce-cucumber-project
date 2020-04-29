@@ -1,0 +1,196 @@
+2020-04-29 14:04:529 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:322 INFO  HomePage :80 - Clicking on Books Link : [[ChromeDriver: chrome on WINDOWS (1fb6e740ba9935eb010e08d3d3719be6)] -> xpath: //ul[@class='top-menu notmobile']//a[contains(text(),'Books')]]
+2020-04-29 14:04:526 INFO  LoginPage :53 - Getting Books Text : Books [[ChromeDriver: chrome on WINDOWS (1fb6e740ba9935eb010e08d3d3719be6)] -> xpath: //h1[contains(text(),'Books')]]
+2020-04-29 14:04:903 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:705 INFO  HomePage :80 - Clicking on Books Link : [[ChromeDriver: chrome on WINDOWS (149a7ebc0468cec0a3233f1d365b50f4)] -> xpath: //ul[@class='top-menu notmobile']//a[contains(text(),'Books')]]
+2020-04-29 14:04:772 INFO  LoginPage :61 - Selecting Books Sorted by Name : A to Z : [[ChromeDriver: chrome on WINDOWS (149a7ebc0468cec0a3233f1d365b50f4)] -> xpath: //select[@name='products-orderby']]
+2020-04-29 14:04:284 INFO  LoginPage :67 - Verifying Books Sorted in order Name A to Z : Fahrenheit 451 by Ray Bradbury
+$30.00 $27.00
+First Prize Pies
+$67.00 $51.00
+Pride and Prejudice
+$35.00 $24.00 [[ChromeDriver: chrome on WINDOWS (149a7ebc0468cec0a3233f1d365b50f4)] -> tag name: h2]
+2020-04-29 14:04:706 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:687 INFO  HomePage :80 - Clicking on Books Link : [[ChromeDriver: chrome on WINDOWS (87d7ac1791bd7715a5e07243ec238061)] -> xpath: //ul[@class='top-menu notmobile']//a[contains(text(),'Books')]]
+2020-04-29 14:04:354 INFO  LoginPage :73 - Selecting Books Sorted by Price: Low to High : [[ChromeDriver: chrome on WINDOWS (87d7ac1791bd7715a5e07243ec238061)] -> xpath: //select[@name='products-orderby']]
+2020-04-29 14:04:974 INFO  LoginPage :79 - Verifying Books Sorted by Price: Low to High : Pride and Prejudice
+$35.00 $24.00
+Fahrenheit 451 by Ray Bradbury
+$30.00 $27.00
+First Prize Pies
+$67.00 $51.00 [[ChromeDriver: chrome on WINDOWS (87d7ac1791bd7715a5e07243ec238061)] -> tag name: h2]
+2020-04-29 14:04:440 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:803 INFO  HomePage :62 - Clicking on Computers Link : [[ChromeDriver: chrome on WINDOWS (6fffaa5fa6c3fa664ad5dab22b19dd17)] -> xpath: //ul[@class='top-menu notmobile']//a[contains(text(),'Computers')]]
+2020-04-29 14:04:110 INFO  LoginPage :38 - Getting Computer Text : Computers [[ChromeDriver: chrome on WINDOWS (6fffaa5fa6c3fa664ad5dab22b19dd17)] -> xpath: //div[@class='page-title']//h1]
+2020-04-29 14:04:787 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:549 INFO  HomePage :68 - Mouse Hovering on Computers Link : [[ChromeDriver: chrome on WINDOWS (861a6328ae8dec80ad3079d58a7e8d33)] -> link text: Register]
+2020-04-29 14:04:340 INFO  HomePage :74 - Clicking on DeskTopMenu : [[ChromeDriver: chrome on WINDOWS (861a6328ae8dec80ad3079d58a7e8d33)] -> xpath: //ul[@class='top-menu notmobile']//a[contains(text(),'Desktops')]]
+2020-04-29 14:04:782 INFO  LoginPage :73 - Clicking on Wishlist Button on Build Your Computer Menu : [[ChromeDriver: chrome on WINDOWS (861a6328ae8dec80ad3079d58a7e8d33)] -> xpath: //div[@class='product-grid']//div[3]//div[1]//div[2]//div[3]//div[2]//input[3]]
+2020-04-29 14:04:90 INFO  LoginPage :84 - Getting Product Added to WishList Text : [[ChromeDriver: chrome on WINDOWS (861a6328ae8dec80ad3079d58a7e8d33)] -> xpath: //div[@class='bar-notification success']]
+2020-04-29 14:04:238 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:331 INFO  HomePage :68 - Mouse Hovering on Computers Link : [[ChromeDriver: chrome on WINDOWS (d5856f108016bae26267819300907e84)] -> link text: Register]
+2020-04-29 14:04:322 INFO  HomePage :74 - Clicking on DeskTopMenu : [[ChromeDriver: chrome on WINDOWS (d5856f108016bae26267819300907e84)] -> xpath: //ul[@class='top-menu notmobile']//a[contains(text(),'Desktops')]]
+2020-04-29 14:04:524 INFO  LoginPage :66 - Clicking on Build Your Own Computer Link : [[ChromeDriver: chrome on WINDOWS (d5856f108016bae26267819300907e84)] -> xpath: //div[@class='item-grid']//div[1]//div[1]//div[1]//a[1]//img[1]]
+2020-04-29 14:04:729 INFO  LoginPage :41 - Clicking on HDD gb400 Radio Button : [[ChromeDriver: chrome on WINDOWS (d5856f108016bae26267819300907e84)] -> xpath: //input[@id='product_attribute_3_7']]
+2020-04-29 14:04:920 INFO  LoginPage :48 - Clicking on Add Cart Tab : [[ChromeDriver: chrome on WINDOWS (d5856f108016bae26267819300907e84)] -> xpath: //input[@id='add-to-cart-button-1']]
+2020-04-29 14:04:05 INFO  LoginPage :59 - Getting Product Added to Cart Text : : The product has been added to your shopping cart [[ChromeDriver: chrome on WINDOWS (d5856f108016bae26267819300907e84)] -> xpath: //p[@class='content']]
+2020-04-29 14:04:560 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:284 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (131c460ef7251598f4a361e3f43506ef)] -> link text: Log in]
+2020-04-29 14:04:322 INFO  LoginPage :41 - Getting Login Welcome Text Message : [[ChromeDriver: chrome on WINDOWS (131c460ef7251598f4a361e3f43506ef)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]
+2020-04-29 14:04:970 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:745 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (155a8287f64623b689d3f07c036d84f9)] -> link text: Log in]
+2020-04-29 14:04:349 INFO  LoginPage :49 - Entering Email : Roger123@gmail.com On Email Field [[ChromeDriver: chrome on WINDOWS (155a8287f64623b689d3f07c036d84f9)] -> id: Email]
+2020-04-29 14:04:632 INFO  LoginPage :55 - Entering Password : Roger1980 On Password Field [[ChromeDriver: chrome on WINDOWS (155a8287f64623b689d3f07c036d84f9)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:282 INFO  LoginPage :67 -  Clicking on Login Button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@class='button-1 login-button']'
+2020-04-29 14:04:328 INFO  WelcomeStorePage :29 - Getting Welcome Store Text[[ChromeDriver: chrome on WINDOWS (155a8287f64623b689d3f07c036d84f9)] -> xpath: //div[@class='topic-block-title']//h2]
+2020-04-29 14:04:880 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:948 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (7e1195a065c20b296a20e24662b3abfa)] -> link text: Log in]
+2020-04-29 14:04:382 INFO  LoginPage :49 - Entering Email : jamesbond@aol.com On Email Field [[ChromeDriver: chrome on WINDOWS (7e1195a065c20b296a20e24662b3abfa)] -> id: Email]
+2020-04-29 14:04:812 INFO  LoginPage :55 - Entering Password : bond123 On Password Field [[ChromeDriver: chrome on WINDOWS (7e1195a065c20b296a20e24662b3abfa)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:364 INFO  LoginPage :67 -  Clicking on Login Button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@class='button-1 login-button']'
+2020-04-29 14:04:429 INFO  WelcomeStorePage :29 - Getting Welcome Store Text[[ChromeDriver: chrome on WINDOWS (7e1195a065c20b296a20e24662b3abfa)] -> xpath: //div[@class='topic-block-title']//h2]
+2020-04-29 14:04:53 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:152 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (37ac4e8900f01c82576ca1541273eb35)] -> link text: Log in]
+2020-04-29 14:04:782 INFO  LoginPage :49 - Entering Email : TestingCasesHd8qXk@gmail.com On Email Field [[ChromeDriver: chrome on WINDOWS (37ac4e8900f01c82576ca1541273eb35)] -> id: Email]
+2020-04-29 14:04:82 INFO  LoginPage :55 - Entering Password : John123 On Password Field [[ChromeDriver: chrome on WINDOWS (37ac4e8900f01c82576ca1541273eb35)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:644 INFO  LoginPage :67 -  Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (37ac4e8900f01c82576ca1541273eb35)] -> xpath: //input[@class='button-1 login-button']]
+2020-04-29 14:04:730 INFO  LoginPage :79 - Clicking Error Message Text : [[ChromeDriver: chrome on WINDOWS (37ac4e8900f01c82576ca1541273eb35)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2020-04-29 14:04:51 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:852 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (887961141780f3a331a3e5bbc784ddd2)] -> link text: Log in]
+2020-04-29 14:04:530 INFO  LoginPage :49 - Entering Email : TestingCasesPxPFSU@gmail.com On Email Field [[ChromeDriver: chrome on WINDOWS (887961141780f3a331a3e5bbc784ddd2)] -> id: Email]
+2020-04-29 14:04:782 INFO  LoginPage :55 - Entering Password : bobby123 On Password Field [[ChromeDriver: chrome on WINDOWS (887961141780f3a331a3e5bbc784ddd2)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:268 INFO  LoginPage :67 -  Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (887961141780f3a331a3e5bbc784ddd2)] -> xpath: //input[@class='button-1 login-button']]
+2020-04-29 14:04:328 INFO  LoginPage :79 - Clicking Error Message Text : [[ChromeDriver: chrome on WINDOWS (887961141780f3a331a3e5bbc784ddd2)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2020-04-29 14:04:211 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:455 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (330141e5440a1d6cb384d2ba9f8668d0)] -> link text: Log in]
+2020-04-29 14:04:990 INFO  LoginPage :49 - Entering Email : TestingCasesoCTsyS@gmail.com On Email Field [[ChromeDriver: chrome on WINDOWS (330141e5440a1d6cb384d2ba9f8668d0)] -> id: Email]
+2020-04-29 14:04:226 INFO  LoginPage :55 - Entering Password : def123 On Password Field [[ChromeDriver: chrome on WINDOWS (330141e5440a1d6cb384d2ba9f8668d0)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:925 INFO  LoginPage :67 -  Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (330141e5440a1d6cb384d2ba9f8668d0)] -> xpath: //input[@class='button-1 login-button']]
+2020-04-29 14:04:13 INFO  LoginPage :79 - Clicking Error Message Text : [[ChromeDriver: chrome on WINDOWS (330141e5440a1d6cb384d2ba9f8668d0)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2020-04-29 14:04:317 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:753 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (872c857a56c9f3388fdb756c3fc46cf0)] -> link text: Log in]
+2020-04-29 14:04:290 INFO  LoginPage :49 - Entering Email : TestingCasesVN4Sxj@gmail.com On Email Field [[ChromeDriver: chrome on WINDOWS (872c857a56c9f3388fdb756c3fc46cf0)] -> id: Email]
+2020-04-29 14:04:494 INFO  LoginPage :55 - Entering Password : mail123 On Password Field [[ChromeDriver: chrome on WINDOWS (872c857a56c9f3388fdb756c3fc46cf0)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:857 INFO  LoginPage :67 -  Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (872c857a56c9f3388fdb756c3fc46cf0)] -> xpath: //input[@class='button-1 login-button']]
+2020-04-29 14:04:944 INFO  LoginPage :79 - Clicking Error Message Text : [[ChromeDriver: chrome on WINDOWS (872c857a56c9f3388fdb756c3fc46cf0)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2020-04-29 14:04:924 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:48 INFO  HomePage :56 - Clicking on Login Link : [[ChromeDriver: chrome on WINDOWS (020b471f7e8fc8b677867dc1ca68dceb)] -> link text: Log in]
+2020-04-29 14:04:414 INFO  LoginPage :49 - Entering Email : TestingCaseszKe86e@gmail.com On Email Field [[ChromeDriver: chrome on WINDOWS (020b471f7e8fc8b677867dc1ca68dceb)] -> id: Email]
+2020-04-29 14:04:611 INFO  LoginPage :55 - Entering Password : test123 On Password Field [[ChromeDriver: chrome on WINDOWS (020b471f7e8fc8b677867dc1ca68dceb)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:933 INFO  LoginPage :67 -  Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (020b471f7e8fc8b677867dc1ca68dceb)] -> xpath: //input[@class='button-1 login-button']]
+2020-04-29 14:04:28 INFO  LoginPage :79 - Clicking Error Message Text : [[ChromeDriver: chrome on WINDOWS (020b471f7e8fc8b677867dc1ca68dceb)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2020-04-29 14:04:320 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:527 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (52c09e0457ea206b46b88800c881eaaa)] -> link text: Register]
+2020-04-29 14:04:579 INFO  RegisterPage :66 - Getting Register Text : [[ChromeDriver: chrome on WINDOWS (52c09e0457ea206b46b88800c881eaaa)] -> xpath: //h1[contains(text(),'Register')]]
+2020-04-29 14:04:963 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:401 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> link text: Register]
+2020-04-29 14:04:650 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> id: gender-male]
+2020-04-29 14:04:890 INFO  RegisterPage :86 - Entering First Name : Roger On First Name Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:106 INFO  RegisterPage :92 - Entering Last Name : Moore On Last Name Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:376 INFO  RegisterPage :99 - Selecting Day of Birth : 1 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:623 INFO  RegisterPage :105 - Selecting Month of Birth : January On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:830 INFO  RegisterPage :111 - Selecting Year of Birth : 1980 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:290 INFO  RegisterPage :117 - Entering Email ID : TestingOyQU@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:721 INFO  RegisterPage :124 - Entering Company Name : Roger Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:34 INFO  RegisterPage :130 - Entering Password : Roger123 On Password Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:305 INFO  RegisterPage :136 - Confirming Password : Roger123 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:88 INFO  RegisterPage :149 - Clicking on Register Button  : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='register-button']'
+2020-04-29 14:04:139 INFO  RegistrationCompletePage :37 - Getting Registration Confirmation Text[[ChromeDriver: chrome on WINDOWS (dbdb5dce10b9315e2da20a6d1dcb14fd)] -> xpath: //div[@class='result']]
+2020-04-29 14:04:446 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:288 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> link text: Register]
+2020-04-29 14:04:602 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> id: gender-male]
+2020-04-29 14:04:878 INFO  RegisterPage :86 - Entering First Name : James On First Name Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:131 INFO  RegisterPage :92 - Entering Last Name : Bond On Last Name Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:373 INFO  RegisterPage :99 - Selecting Day of Birth : 10 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:642 INFO  RegisterPage :105 - Selecting Month of Birth : May On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:879 INFO  RegisterPage :111 - Selecting Year of Birth : 1960 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:381 INFO  RegisterPage :117 - Entering Email ID : TestingGQfw@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:847 INFO  RegisterPage :124 - Entering Company Name : James Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:124 INFO  RegisterPage :130 - Entering Password : James123 On Password Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:467 INFO  RegisterPage :136 - Confirming Password : James123 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:850 INFO  RegisterPage :149 - Clicking on Register Button  : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='register-button']'
+2020-04-29 14:04:902 INFO  RegistrationCompletePage :37 - Getting Registration Confirmation Text[[ChromeDriver: chrome on WINDOWS (1c0dabab2013dad928d6ce6919ecd625)] -> xpath: //div[@class='result']]
+2020-04-29 14:04:340 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:189 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> link text: Register]
+2020-04-29 14:04:441 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> id: gender-male]
+2020-04-29 14:04:715 INFO  RegisterPage :86 - Entering First Name : Boris On First Name Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:17 INFO  RegisterPage :92 - Entering Last Name : Johnson On Last Name Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:343 INFO  RegisterPage :99 - Selecting Day of Birth : 11 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:632 INFO  RegisterPage :105 - Selecting Month of Birth : April On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:949 INFO  RegisterPage :111 - Selecting Year of Birth : 2019 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:499 INFO  RegisterPage :117 - Entering Email ID : Testing27Aq@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:871 INFO  RegisterPage :124 - Entering Company Name : Boris Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:153 INFO  RegisterPage :130 - Entering Password : Test123 On Password Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:363 INFO  RegisterPage :136 - Confirming Password : Test123 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:150 INFO  RegisterPage :149 - Clicking on Register Button  : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='register-button']'
+2020-04-29 14:04:195 INFO  RegistrationCompletePage :37 - Getting Registration Confirmation Text[[ChromeDriver: chrome on WINDOWS (cb77077eedf556b4fbb819cec9a3dc91)] -> xpath: //div[@class='result']]
+2020-04-29 14:04:804 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:374 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> link text: Register]
+2020-04-29 14:04:650 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> id: gender-male]
+2020-04-29 14:04:911 INFO  RegisterPage :86 - Entering First Name : Roger On First Name Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:159 INFO  RegisterPage :92 - Entering Last Name : Moore On Last Name Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:485 INFO  RegisterPage :99 - Selecting Day of Birth : 1 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:710 INFO  RegisterPage :105 - Selecting Month of Birth : January On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:998 INFO  RegisterPage :111 - Selecting Year of Birth : 1980 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:601 INFO  RegisterPage :117 - Entering Email ID : TestingmxBL@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:140 INFO  RegisterPage :124 - Entering Company Name : Roger Moore Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:461 INFO  RegisterPage :130 - Entering Password : Roger123 On Password Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:754 INFO  RegisterPage :136 - Confirming Password : Roger123678 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:971 INFO  RegisterPage :149 - Clicking on Register Button  : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //input[@name='register-button']]
+2020-04-29 14:04:19 INFO  RegisterPage :160 - Getting Registration Error Message : [[ChromeDriver: chrome on WINDOWS (b354bec11db9a8bb97d96fd0c28efec3)] -> xpath: //span[@id='ConfirmPassword-error']]
+2020-04-29 14:04:608 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:14 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> link text: Register]
+2020-04-29 14:04:201 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> id: gender-male]
+2020-04-29 14:04:440 INFO  RegisterPage :86 - Entering First Name : James On First Name Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:680 INFO  RegisterPage :92 - Entering Last Name : Bond On Last Name Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:968 INFO  RegisterPage :99 - Selecting Day of Birth : 10 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:271 INFO  RegisterPage :105 - Selecting Month of Birth : May On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:489 INFO  RegisterPage :111 - Selecting Year of Birth : 1960 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:973 INFO  RegisterPage :117 - Entering Email ID : TestingVZd6@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:331 INFO  RegisterPage :124 - Entering Company Name : James Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:666 INFO  RegisterPage :130 - Entering Password : James123 On Password Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:933 INFO  RegisterPage :136 - Confirming Password : James78786 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:172 INFO  RegisterPage :149 - Clicking on Register Button  : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //input[@name='register-button']]
+2020-04-29 14:04:224 INFO  RegisterPage :160 - Getting Registration Error Message : [[ChromeDriver: chrome on WINDOWS (c67806230f2868da26c2a7b76dfe75b9)] -> xpath: //span[@id='ConfirmPassword-error']]
+2020-04-29 14:04:529 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:213 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> link text: Register]
+2020-04-29 14:04:412 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> id: gender-male]
+2020-04-29 14:04:670 INFO  RegisterPage :86 - Entering First Name : Boris On First Name Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:916 INFO  RegisterPage :92 - Entering Last Name : Johnson On Last Name Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:203 INFO  RegisterPage :99 - Selecting Day of Birth : 11 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:455 INFO  RegisterPage :105 - Selecting Month of Birth : April On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:730 INFO  RegisterPage :111 - Selecting Year of Birth : 2019 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:210 INFO  RegisterPage :117 - Entering Email ID : TestingcL34@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:687 INFO  RegisterPage :124 - Entering Company Name : Testing Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:04 INFO  RegisterPage :130 - Entering Password : Test123 On Password Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:297 INFO  RegisterPage :136 - Confirming Password : Test6767876 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:536 INFO  RegisterPage :149 - Clicking on Register Button  : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //input[@name='register-button']]
+2020-04-29 14:04:599 INFO  RegisterPage :160 - Getting Registration Error Message : [[ChromeDriver: chrome on WINDOWS (f807ea57e86350a5079735dadea6ec56)] -> xpath: //span[@id='ConfirmPassword-error']]
+2020-04-29 14:04:04 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:393 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> link text: Register]
+2020-04-29 14:04:655 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> id: gender-male]
+2020-04-29 14:04:23 INFO  RegisterPage :86 - Entering First Name : Bobby On First Name Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:421 INFO  RegisterPage :92 - Entering Last Name : Trap On Last Name Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:754 INFO  RegisterPage :99 - Selecting Day of Birth : 28 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:104 INFO  RegisterPage :105 - Selecting Month of Birth : February On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:538 INFO  RegisterPage :111 - Selecting Year of Birth : 1975 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:50 INFO  RegisterPage :117 - Entering Email ID : TestingvXZC@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:556 INFO  RegisterPage :124 - Entering Company Name : Bobby Trap On Company Name Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:08 INFO  RegisterPage :130 - Entering Password : Booby123 On Password Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:282 INFO  RegisterPage :136 - Confirming Password : Booby123456 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:508 INFO  RegisterPage :149 - Clicking on Register Button  : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //input[@name='register-button']]
+2020-04-29 14:04:555 INFO  RegisterPage :160 - Getting Registration Error Message : [[ChromeDriver: chrome on WINDOWS (cedd59f45f64174a39d909618034fc36)] -> xpath: //span[@id='ConfirmPassword-error']]
+2020-04-29 14:04:455 INFO  BrowserSelector :28 - Launching Chrome Browser
+2020-04-29 14:04:331 INFO  HomePage :50 - Clicking on Register Link : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> link text: Register]
+2020-04-29 14:04:497 INFO  RegisterPage :80 - Clicking on Male Gender Radio Button : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> id: gender-male]
+2020-04-29 14:04:781 INFO  RegisterPage :86 - Entering First Name : Joseph On First Name Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='FirstName']]
+2020-04-29 14:04:35 INFO  RegisterPage :92 - Entering Last Name : McClare On Last Name Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='LastName']]
+2020-04-29 14:04:244 INFO  RegisterPage :99 - Selecting Day of Birth : 30 On Day of Birth Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //select[@name='DateOfBirthDay']]
+2020-04-29 14:04:464 INFO  RegisterPage :105 - Selecting Month of Birth : June On Month of Birth Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //select[@name='DateOfBirthMonth']]
+2020-04-29 14:04:708 INFO  RegisterPage :111 - Selecting Year of Birth : 1983 On Year of Birth Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //select[@name='DateOfBirthYear']]
+2020-04-29 14:04:166 INFO  RegisterPage :117 - Entering Email ID : TestingSq5C@gmail.com On Email Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='Email']]
+2020-04-29 14:04:547 INFO  RegisterPage :124 - Entering Company Name : McClare Intl On Company Name Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='Company']]
+2020-04-29 14:04:795 INFO  RegisterPage :130 - Entering Password : Jos123 On Password Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='Password']]
+2020-04-29 14:04:10 INFO  RegisterPage :136 - Confirming Password : Joesph123 On Confirm Password Field : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='ConfirmPassword']]
+2020-04-29 14:04:232 INFO  RegisterPage :149 - Clicking on Register Button  : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //input[@name='register-button']]
+2020-04-29 14:04:284 INFO  RegisterPage :160 - Getting Registration Error Message : [[ChromeDriver: chrome on WINDOWS (5c5d594cbb77baf0430748ae5832483b)] -> xpath: //span[@id='ConfirmPassword-error']]

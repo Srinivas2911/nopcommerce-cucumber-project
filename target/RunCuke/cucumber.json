@@ -1,0 +1,3898 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17565443700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify User can Navigate to Books Page",
+        "description": "",
+        "id": "books-feature;verify-user-can-navigate-to-books-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2314536300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244378900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2052193700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Books Link",
+            "match": {
+              "location": "MyBooksStepdefs.iClickOnTheBooksLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241910100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify I am on the Books Page Text",
+            "match": {
+              "location": "MyBooksStepdefs.verifyIAmOnTheBooksPageText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13301630500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify User is Able to Find Books by Name A to Z in Ascending Order",
+        "description": "",
+        "id": "books-feature;verify-user-is-able-to-find-books-by-name-a-to-z-in-ascending-order",
+        "after": [
+          {
+            "result": {
+              "duration": 1412840700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507665500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the Books Link",
+            "match": {
+              "location": "MyBooksStepdefs.iClickOnTheBooksLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1050127100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select Name A to Z on Sort By Menu from Drop Down",
+            "match": {
+              "location": "MyBooksStepdefs.iSelectNameAToZOnSortByMenuFromDropDown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509826900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "System displays Book names in A to Z alphabetical order",
+            "match": {
+              "location": "MyBooksStepdefs.systemDisplaysBookNamesInAToZAlphabeticalOrder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12739788700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify User is Able to Find Books by Price Low to High Order",
+        "description": "",
+        "id": "books-feature;verify-user-is-able-to-find-books-by-price-low-to-high-order",
+        "after": [
+          {
+            "result": {
+              "duration": 1436352200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2228451600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the Books Link",
+            "match": {
+              "location": "MyBooksStepdefs.iClickOnTheBooksLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1664812300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select Price Low to High on Sort By Menu from Drop Down",
+            "match": {
+              "location": "MyBooksStepdefs.iSelectPriceLowToHighOnSortByMenuFromDropDown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 617896900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "System displays Book names Price Low to High order",
+            "match": {
+              "location": "MyBooksStepdefs.systemDisplaysBookNamesPriceLowToHighOrder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Books Feature",
+    "description": "\r\nAs a User I want to use the Books feature on nopcommmerce website.",
+    "id": "books-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resource/featurefile/books.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Books"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13033443500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify User is Able to navigate to Computers page",
+        "description": "",
+        "id": "computer-page-features;verify-user-is-able-to-navigate-to-computers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1569310700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1339694300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Computers Link",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnComputersLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 392901400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Computers Text on the Computers Page",
+            "match": {
+              "location": "MyCompStepdefs.verifyComputersTextOnTheComputersPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13472205500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify Product Added To Your Wish List",
+        "description": "",
+        "id": "computer-page-features;verify-product-added-to-your-wish-list",
+        "after": [
+          {
+            "result": {
+              "duration": 2023919200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293497600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I mouseHover on Computers Link",
+            "match": {
+              "location": "MyCompStepdefs.iMouseHoverOnComputersLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1786970600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Desktops Menu",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnDesktopsMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 440948700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on WishList button On Lenovo Idea Centre PC",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnWishListButtonOnLenovoIdeaCentrePC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417041600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify System Displays Product Added to Your WishList Message",
+            "match": {
+              "location": "MyCompStepdefs.verifySystemDisplaysProductAddedToYourWishListMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12824037900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify Message Product Added to Your Shopping Cart",
+        "description": "",
+        "id": "computer-page-features;verify-message-product-added-to-your-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1425100400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257621300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I mouseHover on Computers Link",
+            "match": {
+              "location": "MyCompStepdefs.iMouseHoverOnComputersLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1989818300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Desktops Menu",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnDesktopsMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2201351800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on Build Your Own Computer Link",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnBuildYourOwnComputerLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202151700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on GB400 HDD Radio Button",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnGB400HDDRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186528400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Build Your Computer Add Cart Button",
+            "match": {
+              "location": "MyCompStepdefs.iClickOnBuildYourComputerAddCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185453000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify System Displays Product Added to Shopping Cart Message",
+            "match": {
+              "location": "MyCompStepdefs.verifySystemDisplaysProductAddedToShoppingCartMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page Features",
+    "description": "As a user I want to use add products to a cart",
+    "id": "computer-page-features",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resource/featurefile/computer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Computers"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14424045000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-functionality;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1441053000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 951100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1297462100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86395500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13036814600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-functionality;user-should-login-successfully-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1485814800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1763683400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600644500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter email \"Roger123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280596700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter password \"Roger1980\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger1980",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22648190000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101595200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should login successfully",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13078681800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-functionality;user-should-login-successfully-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1551351400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1970525700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 435231400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter email \"jamesbond@aol.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jamesbond@aol.com",
+                  "offset": 15
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420622800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter password \"bond123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bond123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22550809800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119579000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should login successfully",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13275482900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-the-error-message-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1218385300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1822361500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 625443500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter invalid email \"\u003cusername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterInvalidEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298267400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password \"John123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1556607800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176149800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the error message",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12230987400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-the-error-message-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1786786600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1574607000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671010600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter invalid email \"\u003cusername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterInvalidEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250696700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password \"bobby123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bobby123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1484774200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145668500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the error message",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13270632600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-the-error-message-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1233072900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 975067600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 532878200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter invalid email \"\u003cusername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterInvalidEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234815400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password \"def123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "def123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 697624400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142484400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the error message",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13445720000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-the-error-message-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1897840600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993284200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 534795200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter invalid email \"\u003cusername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterInvalidEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201693500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password \"mail123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mail123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1361889300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154056300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the error message",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12410208700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-the-error-message-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1217806300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1703215000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Login link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 363752500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter invalid email \"\u003cusername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterInvalidEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192972700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyLoginStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1321788200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139505100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the error message",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldSeeTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "As a user I want to login into nop commerce website",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resource/featurefile/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13536648800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to registration page successfully",
+        "description": "",
+        "id": "register-functionality;user-should-navigate-to-registration-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1331530700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1666887200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89593100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to register page successfully",
+            "match": {
+              "location": "MyLoginStepdefs.iShouldNavigateToRegisterPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12732339400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User should register successfully",
+        "description": "",
+        "id": "register-functionality;user-should-register-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1249903200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 655600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1704294100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247270700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238205000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter first name \"Roger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215551800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter last name \"Moore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Moore",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268223000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter date of birth \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245270700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter month of birth \"January\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "January",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204992600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter year of birth \"1980\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1980",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 458484100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429830800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter company name \"Roger Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311599200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter Password \"Roger123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269249000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter confirm Password \"Roger123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21782015900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91542200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can register successfully",
+            "match": {
+              "location": "MyRegStepdefs.iCanRegisterSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11923097000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User should register successfully",
+        "description": "",
+        "id": "register-functionality;user-should-register-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1385302700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 167500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1896497300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312212800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273963400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter first name \"James\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248552200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter last name \"Bond\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bond",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239989300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter date of birth \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267067900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter month of birth \"May\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "May",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235038200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter year of birth \"1960\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1960",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498720000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463477800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter company name \"James Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274797300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter Password \"James123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341250800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter confirm Password \"James123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21381173600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97402100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can register successfully",
+            "match": {
+              "location": "MyRegStepdefs.iCanRegisterSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12818286100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "User should register successfully",
+        "description": "",
+        "id": "register-functionality;user-should-register-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1534158600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2020497300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250862300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271882900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter first name \"Boris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boris",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301387400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter last name \"Johnson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Johnson",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324012000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter date of birth \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286492800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter month of birth \"April\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316054600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter year of birth \"2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2019",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548931300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 369678900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter company name \"Boris Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boris Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280870300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter Password \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208681800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter confirm Password \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21784073000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89615400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can register successfully",
+            "match": {
+              "location": "MyRegStepdefs.iCanRegisterSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13307067000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "User should Not register successfully with Invalid Credentials",
+        "description": "",
+        "id": "register-functionality;user-should-not-register-successfully-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1538147800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260262600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272989100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259287700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter first name \"Roger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243820500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter last name \"Moore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Moore",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323349500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter date of birth \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225082300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter month of birth \"January\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "January",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285794100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter year of birth \"1980\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1980",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601306400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 537650900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter company name \"Roger Moore Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger Moore Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319246600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter Password \"Roger123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288763800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter confirm Password \"Roger123678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger123678",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215806600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90233200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System displays error message",
+            "match": {
+              "location": "MyRegStepdefs.systemDisplaysErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13312411700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "User should Not register successfully with Invalid Credentials",
+        "description": "",
+        "id": "register-functionality;user-should-not-register-successfully-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1237562300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2091416600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183413900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237202700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter first name \"James\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236906300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter last name \"Bond\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bond",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285671200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter date of birth \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302057500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter month of birth \"May\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "May",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215659600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter year of birth \"1960\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1960",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483145800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355813500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter company name \"James Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333298700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter Password \"James123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265987900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter confirm Password \"James78786\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James78786",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236983400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105833200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System displays error message",
+            "match": {
+              "location": "MyRegStepdefs.systemDisplaysErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12495256100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "User should Not register successfully with Invalid Credentials",
+        "description": "",
+        "id": "register-functionality;user-should-not-register-successfully-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1332060100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 47300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1181750100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195801000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256198200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter first name \"Boris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boris",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243704300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter last name \"Johnson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Johnson",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285663400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter date of birth \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246732300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter month of birth \"April\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "April",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274097800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter year of birth \"2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2019",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478702900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 474098000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter company name \"Testing Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314586600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter Password \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292040900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter confirm Password \"Test6767876\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test6767876",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238322400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124676300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System displays error message",
+            "match": {
+              "location": "MyRegStepdefs.systemDisplaysErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12969306700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "User should Not register successfully with Invalid Credentials",
+        "description": "",
+        "id": "register-functionality;user-should-not-register-successfully-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1852105700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1411834000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260348800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363514000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter first name \"Bobby\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bobby",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394266800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter last name \"Trap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trap",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331628300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter date of birth \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348615800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter month of birth \"February\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "February",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430428900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter year of birth \"1975\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1975",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509598500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 504385000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter company name \"Bobby Trap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bobby Trap",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448650900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter Password \"Booby123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Booby123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273919000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter confirm Password \"Booby123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Booby123456",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224069200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87150300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System displays error message",
+            "match": {
+              "location": "MyRegStepdefs.systemDisplaysErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12198175600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "User should Not register successfully with Invalid Credentials",
+        "description": "",
+        "id": "register-functionality;user-should-not-register-successfully-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1137707400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyLoginStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1669811600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on register link",
+            "match": {
+              "location": "MyLoginStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165099900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Male Gender Radio Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnMaleGenderRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282164000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter first name \"Joseph\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joseph",
+                  "offset": 20
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252439400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter last name \"McClare\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "McClare",
+                  "offset": 19
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206155100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter date of birth \"30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221747500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter month of birth \"June\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "June",
+                  "offset": 24
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterMonthOfBirth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239676900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter year of birth \"1983\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1983",
+                  "offset": 23
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterYearOfBirth(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456311100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter Email ID \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterEmailID(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380023600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter company name \"McClare Intl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "McClare Intl",
+                  "offset": 22
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246356900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter Password \"Jos123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jos123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207869100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter confirm Password \"Joesph123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joesph123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyRegStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220712400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on register Button",
+            "match": {
+              "location": "MyRegStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102540700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System displays error message",
+            "match": {
+              "location": "MyRegStepdefs.systemDisplaysErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "Register Functionality",
+    "description": "As a user I want to register on nop commerce",
+    "id": "register-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resource/featurefile/registration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Registration"
+      }
+    ]
+  }
+]
